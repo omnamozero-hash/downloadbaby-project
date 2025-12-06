@@ -7,7 +7,7 @@ import {
 
 // --- CONFIGURATION ---
 const ACCESS_CODE = "1512"; 
-const API_BASE_URL = 'http://localhost:5000'; 
+const API_BASE_URL = 'https://downloadbaby-backend.onrender.com';
 
 const SocialMediaDownloader = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
